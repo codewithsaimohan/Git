@@ -33,6 +33,7 @@ git init
 | 10 | [Tags](10-tags/README.md) | Lightweight vs annotated tags, versioning releases |
 | 11 | [GitHub Workflow](11-github-workflow/README.md) | remotes, push/pull, PRs, forks, reviews |
 | 12 | [Troubleshooting](12-troubleshooting/README.md) | Common errors and how to recover |
+| 13 | [Bisect](13-bisect/README.md) | Binary search history to find the commit that broke something |
 | -- | [Interview Scenarios](interview-scenarios/README.md) | Questions, stories, and whiteboard answers |
 
 ## Suggested path
@@ -42,7 +43,7 @@ Basics -> Lifecycle -> Branching -> Merging
                               \-> Rebase
                                       \-> Conflicts
 Undo tools: Reset / Revert / Restore, Stash, Cherry-pick, Tags
-Team work: GitHub Workflow -> Troubleshooting -> Interview Scenarios
+Team work: GitHub Workflow -> Troubleshooting -> Bisect -> Interview Scenarios
 ```
 
 ## Core mental model
@@ -97,6 +98,7 @@ git-learning/
 ├── 10-tags/
 ├── 11-github-workflow/
 ├── 12-troubleshooting/
+├── 13-bisect/
 └── interview-scenarios/
 ```
 
